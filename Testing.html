@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>IDK-5 &mdash; Our Project</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="image icon" href="/images/pic01.jpg">
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload landing">
+	<div id="page-wrapper">
+		<!-- Banner -->
+		<section id="banner">
+			<div class="content">
+				<header class="major">
+					<h2>Testing</h2>
+					<p>
+
+					</p>
+				</header>
+			</div>
+			<a href="#one" class="goto-next scrolly">Next</a>
+		</section>
+
+		<section id="one" class="">
+			<!-- Header -->
+			<header id="header">
+
+				<h1 id="logo"><a href="index.html">Home</a></h1>
+
+				<nav id="nav">
+					<ul>
+
+						<li>
+							<a href="PersonalInfo.html" class="scrolly">Team Composition</a>
+							<ul>
+								<li class=""><a href="PersonalInfo.html">Meet the Team</a></li>
+								<li class=""><a href="Team-Profile.html">Team Profile</a></li>
+								<li class=""><a href="Group-Precesses.html">Group Processes</a></li>
+								<li class=""><a href="Career-plans.html">Career Plans</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="">Our Project</a>
+							<ul>
+
+								<li class=""><a href="Project-Description.html">Project Description</a></li>
+								<li class=""><a href="Aims.html">Aims</a></li>
+								<li class=""><a href="Project-Plans.html">Plans and Progress</a></li>
+								<li class=""><a href="Roles.html">Roles</a></li>
+								<li class=""><a href="Scopes.html">Scope and Limits</a></li>
+								<li class=""><a href="Tools.html">Tools and Technologies</a></li>
+								<li class="hide"><a href="Testing.html">Testing</a></li>
+								<li class=""><a href="Timeframe.html">Timeframe</a></li>
+								<li class=""><a href="Risk-Analysis.html">Risk Analysis</a></li>
+								<li class=""><a href="Processes.html">Group Processes</a></li>
+
+							</ul>
+						</li>
+						<li class=""><a href="Skills.html">Skills</a></li>
+						<li class=""><a href="Reflection.html">Reflection</a></li>
+						<li class=""><a target="_blank" href="https://github.com/IDK-5/CPSC2196-3"
+								class="button icon brands fa-github"><span class="label">GitHub</span></a></li>
+					</ul>
+				</nav>
+
+			</header>
+			<!-- Main -->
+			<div id="main" class="wrapper style1">
+				<div class="container">
+
+
+					<!-- Content -->
+					<section class="justify" id="content">
+
+						<h3 class="center">Testing</h3>
+						<p>
+							Due to the size and scale of ComCare project, there will be a need for multiple stages of
+							testing to ensure the project is successful. There are many independent elements to our
+							system that will all need to work in sync to ensure a smooth and efficient experience for
+							all:
+						</p>
+
+						<ul>
+							<li>
+								ComCare infrastructure and data management.
+							</li>
+							<li>
+								Connection between supermarkets and ComCare to collect inventory data,
+							</li>
+							<li>
+								ComCare inventory analysis front end.
+							</li>
+							<li>
+								ComCare restriction analysis front end.
+							</li>
+							<li>
+								Retail checkout system.
+							</li>
+							<li>
+								User Application and web interfaces.
+							</li>
+
+							<ul>
+
+								<li>
+									Family structure, special requirements, location and so forth to be communicated
+									back to ComCare data centres.
+								</li>
+								<li>
+									Restrictions when necessary to be sent and enforced (through the retail checkout
+									system) through the ComCare app and card
+								</li>
+							</ul>
+
+						</ul>
+						<p>
+							Overall all systems will need to communicate with an entity relationship as follows:
+						</p>
+						<div class="report-img">
+							<img src="images\ERD-A3.png" alt="DBMS ERD">
+							<h6><i>Figure 8. ERD for the ComCare Database Management System</i></h6>
+						</div>
+						<p>
+							As this is a very involved project trying to test every section at once will open ourselves
+							up to complete potential redesigns if we have issues. The strategy we have decided to use
+							is, we will be breaking all major components up ensuring that every component off the
+							project is independently tested for issues. This allows the team to address issues in each
+							segment before testing the next. Overall decreasing the impact of the issue on the system
+							and time it will take to resolve
+						</p>
+
+						<p>
+
+							Our initial testing block will consist of the connection between ComCare infrastructure and
+							the supermarket inventory systems. Primary ensuring that all required data can be sent from
+							the supermarket to ComCare in a timely, secure and effective method. There will be heavy
+							involvement between ComCare and the supermarket chains for this process. To ensure the time
+							and process is effective, we will be assigning a development and UAT testing team to this
+							process. Reaching out to the relevant supermarket chains to test and develop.
+						</p>
+
+						<p>
+							Once the communication layer between supermarkets and ComCare has been tested and we can
+							ensure the communication is robust the next phase of testing will be that of the ComCare
+							inventory analysis front end. This is where employees using ComCare will be able to monitor
+							ongoing disaster areas and check relevant essential goods supply and demand. We want to
+							ensure the experience is smooth and feature rich for the users of the system to deliver the
+							best results. Fortunately, in this instance this can be done through an internal development
+							team and will not require interaction with external stakeholders. Simultaneously to this we
+							will also be testing the integration of applying, approving and removing restrictions on
+							essential items. Here we are simply testing if the restrictions imposed are communicated
+							correctly to the ComCare backend infrastructure.
+						</p>
+
+						<p>
+							The third layer of testing will be the retail checkout system. For this phase we will test
+							when a user’s card or NFC phone is scanned the communication flow is working as intended and
+							the restrictions and purchase inventory are updated correctly. We will split this testing
+							into two sections. Firstly, in house testing can be conducted with the POS system used by
+							the supermarkets, this will ensure that any bugs or issues can be ironed out and corrected
+							before involving the supermarkets. After this, similarly to the first phase of testing, we
+							will then assign a development and UAT team to complete testing the process between the
+							supermarket and ComCare infrastructure to ensure the process is working as required.
+						</p>
+
+						The next layer off testing will be that of the user web and application interface. The
+						functional flow for the testing is as below:
+
+						<div class="report-img">
+							<img src="images/comcareUserFlow.png" alt="User flow chart">
+							<h6><i>Figure 9. Application flow chart.</i></h6>
+						</div>
+
+						<p>
+							Similarly, to the testing for the retail checkout system, we will be breaking down this section into two ensuring efficiency. Firstly, we will inhouse test as the development of the web interface and mobile application progresses. The progressive sections to test will include, user information communicating to ComCare infrastructure, restrictions to be communicated from ComCare infrastructure to the web interface and mobile applications, family restrictions to be updated along with current usage and finally any other features included. Once we have tested the feature set independently, the next step will be to internally test the entirety of the flow in house ensuring all features work in unison and the user interface is smooth and friendly.
+						</p>
+
+						<p>
+							Once we are confident internally the web interface and mobile applications are working as desired the next segment of testing will be to test with the retail checkout system, again we will take the same approach as phase one assigning a development and UAT team to complete this testing. Ensuring the applications are working as intended. For now, we currently won’t be getting public users involved however testing with internal teams to work through any issues before we proceed with public user testing.
+						</p>
+
+						<p>
+							Finally, the next step will be to test the system in its entirety from A – Z. This will be quite an extensive block of testing and will be broken up into two sections again. Firstly, using internal teams to go through every scenario ensuring they are working. This will give the team time to work on any issues before we get the public involved. The next step of testing will be to have public user testing, running through every scenario with the public. The aim would be by this point to be minimal issues thus giving the public a good representation of what the system is capable off and ensuring a smooth deployment when the time comes.
+						</p>
+
+						<p>
+							Finally, the next step will be to test the system in its entirety from A – Z. This will be quite an extensive block of testing and will be broken up into two sections again. Firstly, using internal teams to go through every scenario ensuring they are working. This will give the team time to work on any issues before we get the public involved. The next step of testing will be to have public user testing, running through every scenario with the public. The aim would be by this point to be minimal issues thus giving the public a good representation of what the system is capable off and ensuring a smooth deployment when the time comes.
+						</p>
+						
+					</section>
+					<div class="report-buttons-wrapper">
+						<a href="Timeframe.html"
+							class="button primary">&emsp;&emsp;&emsp;&emsp;Next&emsp;&emsp;&emsp;&emsp;</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="footer-top">
+				<hr>
+				<div>
+				</div>
+			</div>
+
+			<div class="footer-btm">
+				<hr>
+				<ul class="copyright" style="padding: 0 0;">
+					<li>&copy; Untitled. All rights reserved.</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+				<hr>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
