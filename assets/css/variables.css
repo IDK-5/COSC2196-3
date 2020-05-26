@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+:root {
+    /*------------COLOR VARIABLES---------------*/
+    --primary-brand-color: #FFD300;
+    --secondary-brand-color: rgba(255, 255, 255);
+
+    --primary-txt-color: rgba(255, 255, 255, 1.0);
+    --secondary-txt-color: rgba(0, 136, 169, 1.0);
+
+    --primary-bg-color: rgba(36, 37, 42, 1.0);
+    --secondary-bg-color: rgba(72, 73, 75, 1.0);
+    --tertiary-bg-color: rgba(54, 54, 54, 1.0);
+
+    --primary-modal-bg: rgba(36, 37, 42, 0.9);
+    --primary-modal-fg: rgba(54, 54, 54, 1.0);
+
+    --primary-focus-bg: rgba(130, 198, 230, 1.0);
+    --primary-valid-bg: rgba(136, 233, 116, 1.0);
+    --primary-invalid-bg: rgb(189, 100, 100, 1.0);
+
+    --primary-shadow-color: rgba(34, 32, 18, 1.0);
+    --primary-button-bg: rgba(0, 135, 168, 1.0);
+    --secondary-button-bg: rgba(0, 136, 169, 1.0);
+
+    --primary-button-fg: rgba(255, 255, 255, 1.0);
+    --secondary-button-fg: rgba(255, 255, 255, 1.0);
+
+    --primary-hover-opacity: 0.6;
+
+    --primary-transition-time: all 1s;
+    --secondary-transition-time: all 0.5s;
+
+    --color-facebook-bg: rgb(59, 89, 152);
+    --color-twitter-bg: rgb(83, 171, 238);
+    --color-linkedin-bg: rgb(0, 122, 179);
+    --color-youtube-bg: rgb(187, 0, 0);
+    --color-github-bg: rgb(71, 71, 71);
+    /*------------FONT VARIABLES---------------*/
+    --primary-font: 'Orbitron';
+    --secondary-font: sans-serif;
+
+    /*-----------HEADER VARIABLES--------------*/
+    --header-height: 3.5em;
+}
